@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Search</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+      }
+      #box {
+        border: transparent;
+        border-radius: 0.5em;
+        padding: 0.3em;
+      }
+      #button {
+        background-color: #427fed;
+        border-radius: 0.5em;
+        border-style: solid;
+        color: #fff;
+        cursor: default;
+        font-weight: bold;
+        margin: 5% 20% 0% 20%;
+        padding: 0.5em 1em;
+        text-align: center;
+      }
+      #button:hover {
+        text-shadow: 0.03em 0.03em #fff;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <form>
+    <input id="box" type="text" placeholder="Search bookmarks" autofocus>
+    <button id="button">Search</button>
+    </form>
+  </body>
+</html>
